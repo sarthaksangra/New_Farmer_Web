@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+body{
+    background: url('Pics/green_background.jpg') top left repeat;
+    font-family: helvetica;
+    color: brown;
+}
+
+#logo{
+    width: 200px;
+    margin: 50px auto;
+    display: block;
+    background: none;
+}
+
+#container{
+    width: 760px;
+    margin: 0 auto;
+    padding: 40px;
+    background: url('Pics/yellow_background.jpg') top left repeat;
+}
+
+#container:after{
+    display: block;
+    height: 0;
+    content: " ";
+    visibility: hidden;
+    clear: both;
+}
+
+#main-content{
+    width: 500px;
+    float: left;
+}
+
+#sidebar{
+   background: url('Pics/texture_background.jpg') top left repeat;
+   width: 200px;
+   float: left;
+   padding: 20px 20px 0;
+   margin: 0 0 0 20px;
+}
+
+#sidebar h3{
+    background: url('Pics/green_background.jpg') top left repeat;
+    color: white;
+    padding: 10px 10px 10px 30px;
+    margin: 20px 0 5px;
+    position: relative;
+    left: -30px;
+}
+
+/*#sidebar.widget{
+    margin: 0 0 20px;
+}*/
+
+address ul{
+    list-style: none;
+}
+
+h1, h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+h1{
+   font-size: 40px;
+   font-weight: bold;
+}
+
+p.lead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+
+a:link{
+    background: none;
+    text-decoration: none;
+    padding:5px;
+    font-weight: bold;
+    color: rgb(99, 95, 95);
+}
+
+#sidebar a:link{
+    display: inline-block;
+}
+
+#specialoffer{
+    position: relative;
+    background: url('Pics/red_background.jpg') top left repeat;
+    color: white;
+    padding: 0 20px 20px;
+    margin: 60px 0 0 0;
+}
+
+#specialoffer h2{
+    font-size: 24px;
+    background: url('Pics/green_background.jpg') top left repeat;
+    display: inline-block;
+    padding:5px;
+    font-weight: bold;
+    position: relative;
+    top: -25px;
+    left: -35px;
+}
+
+#steak{
+    position: absolute;
+    bottom: -25px;
+    right: 30px;
+}
+
+#contact{
+    margin: 0 0 20px;
+}
